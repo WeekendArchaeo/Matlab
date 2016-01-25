@@ -1,6 +1,6 @@
-% -----------------------------------------------------------
+% ---------------------------------------------------------------------------------------------
 % Turtlebot 2: encoders info plot and analysis
-% Ana Cruz-Martín, Juan Antonio Fernández-Madrigal 2015
+% Copyright (C) 2015 Ana Cruz-Martín, Juan Antonio Fernández-Madrigal (anacruzmartin@gmail.com)
 % 
 % Measurements are read from rows of a file with this format:
 % [msgs_secs msgs_nsecs sensor_timestamp left_enc right_enc]
@@ -10,7 +10,7 @@
 % sensor_timestamp = sensor measurement timestamp (msecs)
 % left_enc = left encoder reading
 % rigth_enc = right encoder reading
-% -----------------------------------------------------------
+% ---------------------------------------------------------------------------------------------
 
 
 max_value_encoder = 65535;  % max measurement taken by the encoder
